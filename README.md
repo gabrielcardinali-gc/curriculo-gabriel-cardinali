@@ -1,6 +1,6 @@
 # Curriculo executivo - Gabriel Cardinali
 
-Projeto estatico em HTML/CSS para apresentar o perfil executivo de Gabriel Cardinali.
+Projeto estatico em HTML/CSS para apresentação do meu perfil executivo.
 
 ## Arquivos
 
