@@ -43,6 +43,12 @@ Para gerar PDF:
 6. Em `Branch`, escolha `main` e a pasta `/root`.
 7. Salve.
 
+Depois da publicação, o endereço ficará no formato:
+
+```text
+https://SEU-USUARIO.github.io/curriculo-gabriel-cardinali/
+```
+
 ## Referência de conteúdo
 
 O conteúdo foi estruturado a partir do currículo original em PDF e do perfil público informado:
