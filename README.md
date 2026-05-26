@@ -11,12 +11,6 @@ A proposta é funcionar como uma vitrine profissional para posições de lideran
 - `styles.css`: estilos principais para tela.
 - `print.css`: ajustes para impressão e exportação em PDF.
 
-## Privacidade
-
-A versão pública (`index.html`) não exibe telefone pessoal. O contato direto foi direcionado para o LinkedIn e o e-mail profissional ficou em aberto para definição futura.
-
-A versão ATS pode conter telefone e e-mail porque é mais adequada para envio controlado a recrutadores. Evite publicar PDFs com telefone pessoal no GitHub Pages caso o repositório seja público.
-
 ## Como visualizar localmente
 
 Abra `index.html` diretamente no navegador.
