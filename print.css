@@ -1,15 +1,21 @@
 @page {
-  margin: 14mm;
+  size: A4;
+  margin: 13mm;
 }
 
 * {
   box-shadow: none !important;
 }
 
+html {
+  scroll-behavior: auto;
+}
+
 body {
   background: #fff !important;
   color: #111 !important;
   font-size: 10.5pt;
+  line-height: 1.38;
 }
 
 a {
@@ -25,7 +31,7 @@ a {
 
 .hero {
   min-height: 0;
-  padding: 0 0 10mm;
+  padding: 0 0 8mm;
   background: #fff !important;
   border-bottom: 1px solid #bbb;
 }
@@ -43,12 +49,19 @@ a {
 }
 
 h1 {
-  font-size: 28pt;
+  font-size: 27pt;
   line-height: 1;
 }
 
+h2,
+h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
 .role {
-  font-size: 15pt;
+  margin-top: 5mm;
+  font-size: 14pt;
 }
 
 .summary,
@@ -78,6 +91,8 @@ h1 {
 }
 
 .metric-stack div,
+.results-grid article,
+.education-grid article,
 .job {
   break-inside: avoid;
   page-break-inside: avoid;
@@ -86,7 +101,7 @@ h1 {
 .results-band,
 .education-band,
 .content-grid {
-  padding: 8mm 0 0;
+  padding: 7mm 0 0;
 }
 
 .section-heading {
@@ -94,7 +109,7 @@ h1 {
 }
 
 .section-heading h2 {
-  font-size: 17pt;
+  font-size: 16pt;
 }
 
 .content-grid {
@@ -105,7 +120,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5mm;
-  margin-bottom: 8mm;
+  margin-bottom: 7mm;
+}
+
+.tag-list {
+  gap: 4px;
 }
 
 .tag-list span,
@@ -116,10 +135,24 @@ h1 {
 }
 
 .job {
-  padding: 5mm 0;
+  padding: 4.5mm 0;
+}
+
+.job ul,
+.ats-document ul {
+  margin-top: 2mm;
 }
 
 .ats-document {
   max-width: none;
   padding: 0;
+}
+
+.ats-document h1 {
+  font-size: 24pt;
+}
+
+.ats-document h2 {
+  margin-top: 6mm;
+  padding-top: 4mm;
 }
