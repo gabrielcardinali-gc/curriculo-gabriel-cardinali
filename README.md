@@ -6,7 +6,7 @@ A proposta é funcionar como uma vitrine profissional para posições de lideran
 
 ## Arquivos
 
-- `index.html`: versão web executiva, responsiva e otimizada para SEO.
+- `index.html`: versão web executiva.
 - `ats.html`: versão simplificada para leitura por ATS e envio direto a recrutadores.
 - `styles.css`: estilos principais para tela.
 - `print.css`: ajustes para impressão e exportação em PDF.
