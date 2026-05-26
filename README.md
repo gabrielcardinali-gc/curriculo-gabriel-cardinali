@@ -2,6 +2,15 @@
 
 Projeto estatico em HTML/CSS para apresentação do meu perfil executivo.
 
+## Tópicos
+- currículo / resume
+- portfólio
+- pmo
+- bpm
+- process-improvement
+- operational-excellence
+- lean-six-sigma
+
 ## Arquivos
 
 - `index.html`: versao web executiva, responsiva e visual.
