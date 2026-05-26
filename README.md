@@ -16,6 +16,6 @@ Abra `index.html` diretamente no navegador. Para gerar PDF, use a opcao de impre
 
 ## Observacoes
 
-O conteudo foi estruturado a partir do PDF local informado e do link publico de LinkedIn fornecido:
+O conteudo foi estruturado a partir do PDF local informado e do link publico de LinkedIn:
 
 `https://www.linkedin.com/in/gabriel-cardinali-`
