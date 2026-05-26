@@ -1,0 +1,125 @@
+@page {
+  margin: 14mm;
+}
+
+* {
+  box-shadow: none !important;
+}
+
+body {
+  background: #fff !important;
+  color: #111 !important;
+  font-size: 10.5pt;
+}
+
+a {
+  color: #111 !important;
+  text-decoration: none;
+}
+
+.topbar,
+.hero-actions,
+.footer {
+  display: none !important;
+}
+
+.hero {
+  min-height: 0;
+  padding: 0 0 10mm;
+  background: #fff !important;
+  border-bottom: 1px solid #bbb;
+}
+
+.hero-grid,
+.content-grid,
+.results-grid,
+.education-grid {
+  display: block;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #fff;
+}
+
+h1 {
+  font-size: 28pt;
+  line-height: 1;
+}
+
+.role {
+  font-size: 15pt;
+}
+
+.summary,
+.sidebar p,
+.plain-list,
+.job-head p,
+.results-grid p,
+.education-grid p {
+  color: #222 !important;
+}
+
+.executive-panel,
+.sidebar,
+.results-grid article,
+.education-grid article {
+  padding: 0;
+  border: 0;
+  background: #fff;
+}
+
+.metric-stack,
+.results-grid,
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4mm;
+}
+
+.metric-stack div,
+.job {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.results-band,
+.education-band,
+.content-grid {
+  padding: 8mm 0 0;
+}
+
+.section-heading {
+  margin: 0 0 4mm;
+}
+
+.section-heading h2 {
+  font-size: 17pt;
+}
+
+.content-grid {
+  display: block;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5mm;
+  margin-bottom: 8mm;
+}
+
+.tag-list span,
+.job-head span {
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #111;
+}
+
+.job {
+  padding: 5mm 0;
+}
+
+.ats-document {
+  max-width: none;
+  padding: 0;
+}
