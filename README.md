@@ -28,27 +28,6 @@ Para gerar PDF:
 3. Selecione "Salvar como PDF".
 4. Revise margens, quebras de página e escala antes de salvar.
 
-## Publicação no GitHub Pages
-
-1. Crie um repositório público no GitHub, por exemplo `curriculo-gabriel-cardinali`.
-2. Envie estes arquivos para a raiz do repositório:
-   - `index.html`
-   - `ats.html`
-   - `styles.css`
-   - `print.css`
-   - `README.md`
-3. Acesse `Settings` no repositório.
-4. Entre em `Pages`.
-5. Em `Build and deployment`, selecione `Deploy from a branch`.
-6. Em `Branch`, escolha `main` e a pasta `/root`.
-7. Salve.
-
-Depois da publicação, o endereço ficará no formato:
-
-```text
-https://SEU-USUARIO.github.io/curriculo-gabriel-cardinali/
-```
-
 ## Referência de conteúdo
 
 O conteúdo foi estruturado a partir do currículo original em PDF e do perfil público informado:
